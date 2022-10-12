@@ -8,5 +8,25 @@ h2 + p{
 
  ul.list > li{
 list-style: none;
-border-bottom: grey inset 1px;
+
+border-bottom: solid grey 1px;
+
+}
+
+li > a{
+    color: green; 
+}
+li > a:visited{
+    color: red;
+}
+li > a:hover{
+    color: pink;
+}
+
+li:first-child::first-letter{
+    font-weight: bold;
+    font-size: 120%;
+}
+a[title="BCIT homepage"]{
+    background-color: yellow;
 }
